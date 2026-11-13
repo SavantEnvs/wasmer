@@ -1,0 +1,6 @@
+project: savantenvs/wasmer
+target: metering
+cmds:
+  - cmd: /mayhem/metering
+    libfuzzer: true
+    timeout: 30

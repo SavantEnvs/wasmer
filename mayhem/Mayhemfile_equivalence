@@ -1,0 +1,6 @@
+project: savantenvs/wasmer
+target: equivalence
+cmds:
+  - cmd: /mayhem/equivalence
+    libfuzzer: true
+    timeout: 30

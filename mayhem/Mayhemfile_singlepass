@@ -1,0 +1,6 @@
+project: savantenvs/wasmer
+target: singlepass
+cmds:
+  - cmd: /mayhem/singlepass
+    libfuzzer: true
+    timeout: 30

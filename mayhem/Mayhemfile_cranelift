@@ -1,0 +1,6 @@
+project: savantenvs/wasmer
+target: cranelift
+cmds:
+  - cmd: /mayhem/cranelift
+    libfuzzer: true
+    timeout: 30
